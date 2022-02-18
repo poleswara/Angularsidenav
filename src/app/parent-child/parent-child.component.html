@@ -1,0 +1,13 @@
+<table *ngIf="childData" class="empdata">
+    <tr>
+      <th>ID</th>
+      <th>TITLE</th>
+      <th>BODY</th>
+    </tr>
+  
+    <tr *ngFor="let data of childData">
+      <td>{{data.id}}</td> 
+      <td>{{data.title | uppercase}}</td>
+      <td>{{data.body}}</td>
+    </tr>
+  </table>

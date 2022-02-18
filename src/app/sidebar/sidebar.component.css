@@ -1,0 +1,19 @@
+@media only screen and (min-width:280px){
+
+    .sidebar a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    width: 80%;
+    padding: 10px;
+    margin: 30px auto;
+    border: 2px solid salmon;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    background-color:#1bb1c2;
+    word-wrap: break-word;
+}
+}

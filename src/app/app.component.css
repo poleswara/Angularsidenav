@@ -1,0 +1,25 @@
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.app-sidebar {
+    width: 25%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px ;
+    background-color: #b139cc;
+    overflow: auto;
+}
+
+.app-empdata {
+    width: 75%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    overflow: auto;
+}
